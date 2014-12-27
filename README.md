@@ -18,7 +18,7 @@ Then, the installation is straightforward:
     cd zgit
     python setup.py install
 
-Then after installation you need to create a configuration file `~/.zgitconf', with one local "repository" (for just copying files) and one optional remote "repository" (FTP to be exact). Example file:
+Then after installation you need to create a configuration file `~/.zgitconf`, with one local "repository" (for just copying files) and one optional remote "repository" (FTP to be exact). Example file:
 
     [config]
     ;default_action - what to do when you just type zgit
