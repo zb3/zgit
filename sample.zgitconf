@@ -1,0 +1,14 @@
+[config]
+;default_action - what to do when you just type zgit
+;'status' and 'push' make sense here, pull clearly doesn't :)
+default_action = status
+
+[local]
+;doesn't have to exist, but has to be writable
+directory = ~/zgit-uploads/
+
+[remote]
+disabled = False
+host = zgit-ftp.golden-trumpet.org
+path = zgit-uploads/
+user = admin
